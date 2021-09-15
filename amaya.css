@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: sans-serif;
+}
+#nav-bar
+{
+	position: sticky;
+	top:0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 20px; 
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+
+/*---------------------------------------Amaya Jewelry-------------------------------------*/
+
+#amaya
+{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	color:#fff;
+	padding-top: 5%; 
+}
+.promo-title
+{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+#amaya a
+{
+	color: #fff;
+	text-decoration: none;
+}
+.bottom-img
+{
+	width: 100%;
+}
+
+/*--------------------------------------services section-------------------------------------*/
+
+#services
+{
+	padding: 80px 0;
+	
+}
+.service-img
+{
+	width: 100px;
+	margin-top: 20px;
+}
+.services
+{
+	padding: 20px;
+}
+.services h4
+{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.title::before
+{
+	content: '';
+	background: #7b1798;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	transform: translate(63px);
+}
+title::after
+{
+	content: '';
+	background: #7b1798;
+	height: 10px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translate(8px);
+}
+#services .btn-primary
+{
+	box-shadow: none;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+/*----------------------------collections-----------------------------------------------------*/
+#collections
+{
+	background: #f8f9fa;
+	padding: 50px;
+	padding-top: 50px;
+}
+.collections-title
+{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 8px;
+}
+.collections-img
+{
+	width: 200px;
+	margin-top: 20px;
+	
+}
+/*-----------------------------profile--------------------------------------------------------*/
+#profile
+{
+	background: #f8f9fa;
+	padding: 100px 0;
+}
+#profile p
+{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	
+}
+.profile img
+{
+	width: 60px;
+	transition: 0.5;
+}
+.profile a:hover img
+{
+	transform: translate(-10px);
+}
+.profile fa
+{
+	margin-right: 8px;
+	font-size: 25px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+
+/*-----------------------------------------my account---------------------------------------------*/
+#myaccount
+{
+	background: #f8f9fa;
+	padding: 100px 0;
+}
+#myaccount p
+{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	
+}
+/*-----------------------------------------jewelry-----------------------------------------------*/
+#jewelry
+{
+	background: #f8f9fa;
+	padding: 50px;
+	padding-top: 50px;
+}
+.jewelry-title
+{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 8px;
+}
+.jewelry-img
+{
+	width: 200px;
+	margin-top: 20px;
+	
+}
+
+
+
